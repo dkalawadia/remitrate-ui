@@ -1,0 +1,164 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background: #597588;//#2580BD;//#16547e;//#EF4343;// url(http://www.datadrivenlondon.com/img/header-bg.jpg) no-repeat center top;
+}
+
+a {
+  color: #f05f76;
+}
+
+.navbar-default {
+  background-color: transparent;//#5c524c;
+  border-color: transparent;//#674937;
+  text-transform: uppercase;
+  font-size:11px;
+}
+
+.navbar-brand {
+  padding: 15px 0px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  color: #ccc;//#7BD4F6;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ccc; //#7BD4F6;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+.dropdown-menu>li>a {
+  font-size:12px;
+  text-transform:none;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 28px;
+  height: 4px;
+  border-radius: 2px;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: #d6ba98;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #F5BEC7;
+}
+
+.navbar-nav {
+  padding: 15px 0px;
+}
+
+.signup>li>a {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin: 8px 5px;
+}
+
+.btn-default {
+  color: #fff;
+  background-color: transparent;
+  border: solid 2px #fff;
+  margin-right:15px;
+}
+
+.btn-default:hover {
+  color:#fff;
+  background-color:#f05f76;
+  //border:solid 2px #f05f76;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: transparent;
+  font-size:10px;
+}
+.footer .container {
+  border-top:solid 1px #ccc;
+}
+
+.text-muted {
+  color:#fff;
+}
+
+.footer-menu {
+  margin: 20px 0;
+}
+
+.copyrights {
+  //background: #3E4246;
+  padding: 0;
+  font-size: 12px;
+  //border-top: 1px solid #3E4246;
+  margin-top: 20px;
+  color:#fff;
+}
+.footer-menu ul >li {
+  list-style: none;
+  list-style-position: outside;
+  float: right;
+  display: inline;
+  margin: 5px;
+}
+
+.menu, dir {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+
+.menu>li>a{
+  color:#fff;
+  text-transform: uppercase;
+  font-size:11px;
+}
+.menu>li>a:hover{
+  text-decoration:none;
+  color:#ccc;
+}
+.love {
+  color:#FA7D7D;
+}
