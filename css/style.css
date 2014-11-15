@@ -13,7 +13,7 @@ body {
 }
 
 a {
-  color: #f05f76;
+  color: #1F8DD7;
 }
 
 .navbar-default {
@@ -88,11 +88,76 @@ a {
   margin-right:15px;
 }
 
-.btn-default:hover {
-  color:#fff;
-  background-color:#f05f76;
-  //border:solid 2px #f05f76;
+.btn-primary {
+  color: #428bca;
+  background-color: transparent;
+  border: solid 2px #428bca;
 }
+
+.btn-default:hover {
+  color:#ccc;
+  background-color:transparent;
+  border:solid 1px ;
+}
+
+.btn-primary:hover {
+  color: #428bca;
+  background-color:transparent;
+  border:solid 1px #428bca ;
+}
+
+.title {
+  margin: 20px 0px;
+  color:#fff;
+}
+
+.banner {
+  //position: relative;
+  top: 3em;
+  left: 0;
+  right: 0;
+  margin: 20px auto;
+  background-color: transparent;
+  text-align: center;
+}
+
+.banner a {
+  margin-top: 20px;
+}
+
+.search {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.search .container {
+  background-color: #E3EDF5;//#c7ddef;
+  border: solid 1px #A7D3F7 ;
+}
+.search .container form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.search input {
+  height: 55px;
+  border: 2px solid #428bca;
+  border-radius: 3px;
+  width: 100%;
+  padding: 14px 16px;
+}
+.search .btn {
+  height: 49px;
+  margin: 3px 0px;
+}
+
+.search label{
+  text-align: center;
+  color: #428bca;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
 
 .container .text-muted {
   margin: 20px 0;
